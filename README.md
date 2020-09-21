@@ -12,30 +12,34 @@
 
 1.首页
 
-![1600685460169](F:\git\resume\img\1600685460169.png)![1600685529129](F:\git\resume\img\1600685529129.png)
+![首页](https://gitee.com/he_qun/resume-miniprogram/blob/master/img/1600685460169.png)
+
+![首页2](https://gitee.com/he_qun/resume-miniprogram/blob/master/img/1600685529129.png)
 
 2.个人简介
 
-![1600685557624](F:\git\resume\img\1600685557624.png)
+![个人简介](https://gitee.com/he_qun/resume-miniprogram/blob/master/img/1600685557624.png)
 
 3.项目列表/项目详情
 
-![1600685598042](F:\git\resume\img\1600685598042.png)![1600685637488](F:\git\resume\img\1600685637488.png)
+![项目列表](https://gitee.com/he_qun/resume-miniprogram/blob/master/img/1600685598042.png)
+
+![项目详情](https://gitee.com/he_qun/resume-miniprogram/blob/master/img/1600685637488.png)
 
 4.职业技能页面
 
-![1600685659991](F:\git\resume\img\1600685659991.png)
+![职业技能](https://gitee.com/he_qun/resume-miniprogram/blob/master/img/1600685659991.png)
 
 5.点击首页姓名可查看访客记录
 
-![1600685703012](F:\git\resume\img\1600685703012.png)
+![访客记录](https://gitee.com/he_qun/resume-miniprogram/blob/master/img/1600685703012.png)
 
 6.授权登录页面
 
-![1600686210117](F:\git\resume\img\1600686210117.png)
+![授权登录页面](https://gitee.com/he_qun/resume-miniprogram/blob/master/img/1600686210117.png)
 
 7.预览个人简历小程序码、以及个人博客小程序码
 
-![](F:\git\resume\img\resume.jpg)
+![个人简历小程序码](https://gitee.com/he_qun/resume-miniprogram/blob/master/img/resume.jpg)
 
-![](F:\git\resume\img\wx_blog.jpg)
+![个人博客小程序码](https://gitee.com/he_qun/resume-miniprogram/blob/master/img/wx_blog.jpg)
