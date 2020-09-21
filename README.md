@@ -12,8 +12,6 @@
 
 1.首页
 ![首页1](https://images.gitee.com/uploads/images/2020/0921/193416_f85ea34c_7491963.png "1600685460169.png")
-
-
 ![首页2](https://images.gitee.com/uploads/images/2020/0921/193443_1090b316_7491963.png "1600685529129.png")
 
 2.个人简介
@@ -40,6 +38,6 @@
 
 7.预览个人简历小程序码、以及个人博客小程序码
 
-![个人简历小程序码](https://images.gitee.com/uploads/images/2020/0921/193622_48a5d356_7491963.jpeg "resume.jpg")
+![个人简历小程序码](https://images.gitee.com/uploads/images/2020/0921/193956_03a0baec_7491963.jpeg "gh_59adf6b3a92e_258.jpg")
 
 ![个人博客小程序码](https://images.gitee.com/uploads/images/2020/0921/193639_061d3323_7491963.jpeg "wx_blog.jpg")
