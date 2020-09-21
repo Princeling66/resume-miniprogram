@@ -1,0 +1,51 @@
+<view class="container" bindtouchmove='handletouchmove'>
+  <view class="content content-intro">
+    <view class="content-inner" animation="{{animationData}}">
+      <view class="wrap fade in">
+        <text class="content-title">贺群</text>
+        <view class="content-subtitle">
+          <text>J</text>
+          <text>A</text>
+          <text>V</text>
+          <text>A</text>
+          <text>后</text>
+          <text>端</text>
+          <text>工</text>
+          <text>程</text>
+          <text>师</text>
+          <text>个</text>
+          <text>人</text>
+          <text>简</text>
+          <text>历</text>
+        </view>
+        <view bind:tap="nextpage" class="enter {{entercolor}}" data-flag="true">enter</view>
+        <view bind:tap="nextpage" class="arrowicon" data-flag="false">
+          <view class="arrow arrow-1"></view>
+          <view class="arrow arrow-2"></view>
+        </view>
+      </view>
+      <image class="fade-image" src="../../images/1.png" />
+    </view>
+    <view class="content content-main">
+      <view id="page">
+        <view id="card">
+          <view class="card-inner">
+            <view class="banner_img">
+              <image alt="avatar" class="userhead" src='../../images/3.png' />
+            </view>
+            <view class="signature">
+              <text class="cardname" bindtap="toUserList">贺群</text>
+              <text class="print">Code & Input & Output</text>
+            </view>
+          </view>
+          <view class='nav-list'>
+            <view bindtap="toPage" hover-class='none' data-url="/pages/{{item.name}}/{{item.name}}" class="nav-li bg-{{item.color}}" wx:for="{{elements}}" wx:key="key">
+              <i class='iconfont icon-{{item.icon}}'></i>
+              <view class="nav-name">{{item.title}}</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

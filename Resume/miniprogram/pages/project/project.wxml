@@ -1,0 +1,64 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+	<view slot="backText">返回</view>
+	<view slot="content">酒不醉APP</view>
+</cu-custom>
+<view class="padding text-center  intro-skill">
+	<view class="padding-xl radius shadow bg-white main-intro">
+		<view class="cu-bar bg-white  margin-top">
+			<view class="action">
+				<text class="cuIcon-title text-red"></text>
+				技术架构
+			</view>
+		</view>
+		<view class="padding bg-white">App前端技术架构：Angular8+ionic5+TypeScript，工具VScode</view>
+		<view class="padding bg-white">小程序技术架构：基于TypeScipt整合的基础框架</view>
+		<view class="padding bg-white">后端语言：Java</view>
+		<view class="padding bg-white">后端技术架构：Jfinal+Layui+Maven+Mysql+SVN</view>
+	</view>
+</view>
+<view class="padding text-center  intro-skill">
+	<view class="padding-xl radius shadow bg-white main-intro">
+		<view class="cu-bar bg-white  margin-top">
+			<view class="action">
+				<text class="cuIcon-title text-red"></text>
+				职责与技术难点
+			</view>
+		</view>
+		<view class="padding bg-white">  职责：独立负责用户端和骑手端APP端和小程序端的后台、接口、以及APP端开发，带两位新同事学习小程序开发，小程序端主要负责首页、分类页面商品展示、购物车页面、下单、支付以及授权登录和授权获取手机号码、node-data页面、上传图片等组件的封装,负责申请、对接友盟、高德、支付宝、微信等项目所需参数，搭建服务器环境、申请SSL证书、配送https。</view>
+		<view class="padding bg-white">技术难点：</view>
+		<view class="padding bg-white">  1.对接客如云。</view>
+		<view class="padding bg-white">  2.因为是多门店单商家模式，配送以及邮寄按客户需求缺货自动将订单按距离倒序就近派单，如遇缺货自动顺位到下一个门店。解决方案：用户在下单时，使用递归方法将订单内商品跟门店比对，如果所有门店全部缺货则返回缺货信息。</view>
+		<view class="padding bg-white">  3.对接客服聊天，前端使用的是公司内部封装的组件，后端使用JIM实时聊天。</view>
+		<view class="padding bg-white">4.创建订单、更改订单状态、支付等操作需要用到事务、确认发货后定时更改状态为完成以及配送时间，超时计算需要用到定时器。</view>
+		<view class="padding bg-white">5.不同会员等级对应不同折扣使用的是工厂+策略设计模式</view>
+		<view class="padding bg-white">6.APP端和小程序端加入购物车动画效果</view>
+	</view>
+</view>
+<view class="cu-bar bg-white  margin-top">
+	<view class="action">
+		<text class="cuIcon-title text-yellow"></text>
+		项目详情
+	</view>
+</view>
+<view class="cu-bar bg-white  margin-top">
+	<view class="qr">
+		<image class='qr-image' src="../../images/jiubuzuiAd.png" mode="aspectFit" bind:tap="clickImg" data-url="cloud://hequn.6865-hequn-1302876179/logo/jiubuzuiAd.png" />
+		<view class="qr-desc">南京酒不醉有用户端和配送端APP/小程序，是一种单商家多门店的模式。主要功能：手机验证码登录、注册，三方登录，秒杀、团购、拼团、购物车、下单、配送、优惠券、售后模块、VIP不同等级对应不同权限折扣、客服实时聊天、对接硬件扫码、喝什么模块。</view>
+	</view>
+</view>
+<block wx:for="{{dataList}}" wx:key="key">
+	<view class="padding-xl radius shadow bg-white main-intro">
+		<block wx:for="{{item.descriptionList}}" wx:for-item="desc" wx:key="key">
+			<view class="padding bg-white">
+				<text class=" text-blue" style="font-size:15px">
+				{{desc}}
+				</text>
+			</view>
+		</block>
+	</view>
+	<view class="margin-top padding  shadow intro-project">
+		<ng-container wx:for="{{item.imageUrlList}}" wx:for-item="imageUrl" wx:key="key">
+			<image bind:tap="clickImg" src="{{imageUrl}}" mode="widthFix" data-url="{{imageUrl}}" class="img" />
+		</ng-container>
+	</view>
+</block>

@@ -1,0 +1,18 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+	<view slot="backText">返回</view>
+	<view slot="content">工作经历</view>
+</cu-custom>
+<view class="cu-timeline">
+	<view class="cu-item  text-cyan">
+		<view class="content">
+			<view class="title">南京夏恒网络系统有限公司</view>
+			<view class="cu-capsule radius">
+				<view class="cu-tag bg-cyan">工作</view>
+				<view class="cu-tag line-cyan">2019年3月-至今</view>
+			</view>
+			<view class="margin-top">
+				工作内容：根据公司美工给的UE和客户需求，主要负责公司PC端、APP端、小程序端、微信公众号等前端、后台以及接口的开发。负责带公司新同事学习微信小程序等项目的开发，管理公司内部服务器、APP上架苹果应用市场的参数配置和审核失败原因整理。
+			</view>
+		</view>
+	</view>
+</view>

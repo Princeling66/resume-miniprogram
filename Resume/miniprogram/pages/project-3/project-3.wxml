@@ -1,0 +1,60 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+	<view slot="backText">返回</view>
+	<view slot="content">乡村休闲游</view>
+</cu-custom>
+<view class="padding text-center  intro-skill">
+	<view class="padding-xl radius shadow bg-white main-intro">
+		<view class="cu-bar bg-white  margin-top">
+			<view class="action">
+				<text class="cuIcon-title text-red"></text>
+				技术架构
+			</view>
+		</view>
+		<view class="padding bg-white">App前端技术架构：Angular8+ionic3+TypeScript，工具VScode</view>
+		<view class="padding bg-white">小程序技术架构：基于TypeScipt整合的基础框架</view>
+		<view class="padding bg-white">后端语言：Java</view>
+		<view class="padding bg-white">后端技术架构：Jfinal+Layui+Mysql+SVN</view>
+	</view>
+</view>
+<view class="padding text-center  intro-skill">
+	<view class="padding-xl radius shadow bg-white main-intro">
+		<view class="cu-bar bg-white  margin-top">
+			<view class="action">
+				<text class="cuIcon-title text-red"></text>
+				职责与技术难点
+			</view>
+		</view>
+		<view class="padding bg-white">职责：主要负责APP端的旺铺模块、民宿模块、首页模块、分销模块、VR+直播模块、路线规划和全域导图模块、大转盘模块、菜谱模块的前后端。负责小程序的开发。</view>
+		<view class="padding bg-white">技术难点：</view>
+		<view class="padding bg-white">1.全域导图和旅游路线规划需要对接高德地图绘制轨迹路线和mark点标记。</view>
+		<view class="padding bg-white">2.APP分享海报、以及生成小程序码，扫码注册增加抽奖次数。</view>
+	</view>
+</view>
+<view class="cu-bar bg-white  margin-top">
+	<view class="action">
+		<text class="cuIcon-title text-yellow"></text>
+		项目详情
+	</view>
+</view>
+<view class="cu-bar bg-white  margin-top">
+	<view class="qr">
+		<image class='qr-image' src="cloud://hequn.6865-hequn-1302876179/logo/xxygAd.png" mode="aspectFit" bind:tap="clickImg" data-url="cloud://hequn.6865-hequn-1302876179/logo/xxygAd.png" />
+		<view class="qr-desc">乡村休闲游集休闲农业观光旅游与特色农产品电商于一体的新型农产品综合移动电商平台，以农业休闲观光旅游为主线，平台与入驻农庄。</view>
+	</view>
+</view>
+<block wx:for="{{dataList}}" wx:key="key">
+	<view class="padding-xl radius shadow bg-white main-intro">
+		<block wx:for="{{item.descriptionList}}" wx:for-item="desc" wx:key="key">
+			<view class="padding bg-white">
+				<text class=" text-blue" style="font-size:15px">
+        				{{desc}}
+        </text>
+			</view>
+		</block>
+	</view>
+	<view class="margin-top padding  shadow intro-project">
+    <ng-container  wx:for="{{item.imageUrlList}}" wx:for-item="imageUrl" wx:key="key">
+		<image bind:tap="clickImg" src="{{imageUrl}}" mode="widthFix" data-url="{{imageUrl}}" class="img" />
+    </ng-container>
+	</view>
+</block>

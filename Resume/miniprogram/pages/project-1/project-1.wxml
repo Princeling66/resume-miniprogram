@@ -1,0 +1,59 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+	<view slot="backText">返回</view>
+	<view slot="content">明好工程APP</view>
+</cu-custom>
+<view class="padding text-center  intro-skill">
+	<view class="padding-xl radius shadow bg-white main-intro">
+		<view class="cu-bar bg-white  margin-top">
+			<view class="action">
+				<text class="cuIcon-title text-red"></text>
+				技术架构
+			</view>
+		</view>
+		<view class="padding bg-white">App前端技术架构：Angular8+ionic5+TypeScript，工具VScode</view>
+		<view class="padding bg-white">小程序技术架构：基于TypeScipt整合的基础框架</view>
+		<view class="padding bg-white">后端语言：Java</view>
+		<view class="padding bg-white">后端技术架构：Jfinal+Layui+Maven+Mysql+SVN</view>
+	</view>
+</view>
+<view class="padding text-center  intro-skill">
+	<view class="padding-xl radius shadow bg-white main-intro">
+		<view class="cu-bar bg-white  margin-top">
+			<view class="action">
+				<text class="cuIcon-title text-red"></text>
+				职责与技术难点
+			</view>
+		</view>
+		<view class="padding bg-white">职责：独立负责APP端和小程序端的后台、接口开发，根据美工提供的UE开发APP端。</view>
+		<view class="padding bg-white">技术难点：</view>
+		<view class="padding bg-white">1.接单以及到送达这个过程需要实时定位，然后对接高德地体画出轨迹路线</view>
+	</view>
+</view>
+<view class="cu-bar bg-white  margin-top">
+	<view class="action">
+		<text class="cuIcon-title text-yellow"></text>
+		项目详情
+	</view>
+</view>
+<view class="cu-bar bg-white  margin-top">
+	<view class="qr">
+		<image class='qr-image' src="cloud://hequn.6865-hequn-1302876179/logo/sgscAd.png" mode="aspectFit" bind:tap="clickImg" data-url="cloud://hequn.6865-hequn-1302876179/logo/sgscAd.png" />
+		<view class="qr-desc">明好工程APP，百度搜索点点有活APP也可以。包含机械类、人员类、材料类、车辆类、修理类、配件类、盒饭类、加急招工、加急找活等最新信息，是一个信息类平台。用户分为普通用户、商家、公司</view>
+	</view>
+</view>
+<block wx:for="{{dataList}}" wx:key="key">
+	<view class="padding-xl radius shadow bg-white main-intro">
+		<block wx:for="{{item.descriptionList}}" wx:for-item="desc">
+			<view class="padding bg-white">
+				<text class=" text-blue" style="font-size:15px">
+				{{desc}}
+				</text>
+			</view>
+		</block>
+	</view>
+	<view class="margin-top padding  shadow intro-project">
+		<ng-container wx:for="{{item.imageUrlList}}" wx:for-item="imageUrl">
+			<image bind:tap="clickImg" src="{{imageUrl}}" mode="widthFix" data-url="{{imageUrl}}" class="img" />
+		</ng-container>
+	</view>
+</block>

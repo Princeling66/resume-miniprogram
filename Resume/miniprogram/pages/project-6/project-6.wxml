@@ -1,0 +1,58 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+	<view slot="backText">返回</view>
+	<view slot="content">城盟服务</view>
+</cu-custom>
+<view class="padding text-center  intro-skill">
+	<view class="padding-xl radius shadow bg-white main-intro">
+		<view class="cu-bar bg-white  margin-top">
+			<view class="action">
+				<text class="cuIcon-title text-red"></text>
+				技术架构
+			</view>
+		</view>
+		<view class="padding bg-white">小程序技术架构：基于TypeScipt整合的基础框架</view>
+		<view class="padding bg-white">后端语言：Java</view>
+		<view class="padding bg-white">后端技术架构：Jfinal+Layui+Maven+Mysql+SVN</view>
+	</view>
+</view>
+<view class="padding text-center  intro-skill">
+	<view class="padding-xl radius shadow bg-white main-intro">
+		<view class="cu-bar bg-white  margin-top">
+			<view class="action">
+				<text class="cuIcon-title text-red"></text>
+				职责与技术难点
+			</view>
+		</view>
+		<view class="padding bg-white">职责：独立负责小程序端的后台、接口开发，小程序端的开发、以及授权登录和授权获取手机号码、node-data页面、上传图片等组件的封装。</view>
+		<view class="padding bg-white">技术难点：</view>
+		<view class="padding bg-white">1.下单可以预支付定金以及扫小程序码支付比较麻烦。</view>
+	</view>
+</view>
+<view class="cu-bar bg-white  margin-top">
+	<view class="action">
+		<text class="cuIcon-title text-yellow"></text>
+		项目详情
+	</view>
+</view>
+<view class="cu-bar bg-white  margin-top">
+	<view class="qr">
+		<image class='qr-image' src="cloud://hequn.6865-hequn-1302876179/image/wx_blog.jpg" mode="aspectFit" bind:tap="clickImg" data-url="cloud://hequn.6865-hequn-1302876179/image/wx_blog.jpg" />
+		<view class="qr-desc">城盟服务小程序是一个多商家的商城APP、分为用户和商家两种身份，商家可以通过小程序添加产品也可以通过后台添加、用户身份进入主要有生鲜超市模块、美容养生模块、上门试穿模块、个人中心模块。</view>
+	</view>
+</view>
+<block wx:for="{{dataList}}" wx:key="key">
+	<view class="padding-xl radius shadow bg-white main-intro">
+		<block wx:for="{{item.descriptionList}}" wx:for-item="desc">
+			<view class="padding bg-white">
+				<text class=" text-blue" style="font-size:15px">
+        				{{desc}}
+        </text>
+			</view>
+		</block>
+	</view>
+	<view class="margin-top padding  shadow intro-project">
+    <ng-container  wx:for="{{item.imageUrlList}}" wx:for-item="imageUrl">
+		<image bind:tap="clickImg" src="{{imageUrl}}" mode="widthFix" data-url="{{imageUrl}}" class="img" />
+    </ng-container>
+	</view>
+</block>
