@@ -3,35 +3,39 @@
 #### 介绍
 基于微信云开发写的一个个人简历微信小程序，组件库使用的是ColorUI。
 
-#### 软件架构
-软件架构说明
-
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  在微信开发者工具导入整个Resume文件，代码方法都写了注释，由于数据存到云数据库和云仓库，可能有些内容看不到，可以扫码预览一下内容。谢谢
 
-#### 使用说明
+#### 项目展示
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.首页
 
-#### 参与贡献
+![1600685460169](F:\git\resume\img\1600685460169.png)![1600685529129](F:\git\resume\img\1600685529129.png)
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+2.个人简介
 
+![1600685557624](F:\git\resume\img\1600685557624.png)
 
-#### 特技
+3.项目列表/项目详情
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+![1600685598042](F:\git\resume\img\1600685598042.png)![1600685637488](F:\git\resume\img\1600685637488.png)
+
+4.职业技能页面
+
+![1600685659991](F:\git\resume\img\1600685659991.png)
+
+5.点击首页姓名可查看访客记录
+
+![1600685703012](F:\git\resume\img\1600685703012.png)
+
+6.授权登录页面
+
+![1600686210117](F:\git\resume\img\1600686210117.png)
+
+7.预览个人简历小程序码、以及个人博客小程序码
+
+![](F:\git\resume\img\resume.jpg)
+
+![](F:\git\resume\img\wx_blog.jpg)
