@@ -43,3 +43,5 @@
 ![个人简历小程序码](https://images.gitee.com/uploads/images/2020/0921/193956_03a0baec_7491963.jpeg "gh_59adf6b3a92e_258.jpg")
 
 ![个人博客小程序码](https://images.gitee.com/uploads/images/2020/0921/194136_2cb8afa8_7491963.jpeg "gh_c30da1d5e471_258.jpg")
+
+数据库结构：因为项目图片都是上传到云服务器，而且项目UI图个数不定就没写在数据库也懒得每个项目分个集合，所以就建了两个表，一个user表，一个project表用来存储。![user表](https://images.gitee.com/uploads/images/2020/1014/175853_8a3adeb8_7491963.jpeg "1602669507(1).jpg")  ![project表](https://images.gitee.com/uploads/images/2020/1014/180005_46e5d3b6_7491963.jpeg "1602669577(1).jpg")
