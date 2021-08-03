@@ -1,19 +1,19 @@
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
 	<view slot="backText">返回</view>
-	<view slot="content">酒不醉APP</view>
+	<view slot="content">南都电源SRM系统</view>
 </cu-custom>
 <view class="padding text-center  intro-skill">
 	<view class="padding-xl radius shadow bg-white main-intro">
 		<view class="cu-bar bg-white  margin-top">
 			<view class="action">
 				<text class="cuIcon-title text-red"></text>
-				技术架构
+				项目描述
 			</view>
 		</view>
-		<view class="padding bg-white">App前端技术架构：Angular8+ionic5+TypeScript，工具VScode</view>
-		<view class="padding bg-white">小程序技术架构：基于TypeScipt整合的基础框架</view>
+		<view class="padding bg-white">南都电源SRM系统是基于SRM系统3.0版本根据南都电源现有业务流程与标准进行需求定制化开发</view>
+		<view class="padding bg-white">前端技术架构：pqgrid+mmgrid</view>
 		<view class="padding bg-white">后端语言：Java</view>
-		<view class="padding bg-white">后端技术架构：Jfinal+Layui+Maven+Mysql+SVN</view>
+		<view class="padding bg-white">后端技术架构：spring+springmvc+Apache CXF+redis+Mybatis+Naginx+svn</view>
 	</view>
 </view>
 <view class="padding text-center  intro-skill">
@@ -21,16 +21,26 @@
 		<view class="cu-bar bg-white  margin-top">
 			<view class="action">
 				<text class="cuIcon-title text-red"></text>
-				职责与技术难点
+				技术描述:
 			</view>
 		</view>
-		<view class="padding bg-white">职责：独立负责APP端和小程序端的后台、接口开发，带两位新同事开发小程序端、学习小程序开发，小程序端主要负责首页、分类页面商品展示、购物车页面、下单、支付以及授权登录和授权获取手机号码、node-data页面、上传图片等组件的封装。</view>
-		<view class="padding bg-white">技术难点：</view>
-		<view class="padding bg-white">1.对接高德地图，实现导航、实时定位绘制配送轨迹，mark点标记。</view>
-		<view class="padding bg-white">2.因为是多门店单商家模式，配送以及邮寄按客户需求缺货自动将订单按距离倒序就近派单，如遇缺货自动顺位到下一个门店。解决方案：用户在下单时，使用递归方法将订单内商品跟门店比对，如果所有门店全部缺货则返回缺货信息。</view>
-		<view class="padding bg-white">3.对接客服聊天，前端使用的是公司内部封装的组件，后端使用JIM实时聊天。</view>
-		<view class="padding bg-white">4.创建订单、更改订单状态、支付等操作需要用到事务、确认发货后定时更改状态为完成以及配送时间，超时计算需要用到定时器。</view>
-		<view class="padding bg-white">5.不同会员等级对应不同折扣使用的是工厂+策略设计模式</view>
+		<view class="padding bg-white">1.使用pqGrid和mmGrid模版引擎进行前端页面的开发</view>
+		<view class="padding bg-white">2.工作流使用uflo+hibernate</view>
+		<view class="padding bg-white">3.该项目采用了Spring SpringMVC mybatis开源框架完成，并融入了cxf开源webservice框架的应用</view>
+		<view class="padding bg-white">4.项目中使用Active MQ 中间件的消息队列机制，使得系统能够更好的生产消息与处理消息</view>
+		<view class="padding bg-white">5. 项目通过搭建Redis集群、solr集群、nginx集群以及mysql集群来使用项目能够具有高可用且支持高并发的性能</view>
+		<view class="padding bg-white">6.使用SSO单点登录</view>
+		<view class="padding bg-white">7.部署负载均衡服务器，使用分布式缓存服务器，数据库主从分离，通过云端多节点备份数据。同时采用分布式系统架构，可以使得并发量可根据集群服务器的扩展而进行增大 </view>
+		<view class="padding bg-white">8.使用xxl-job/springframework.schedule管理任务</view>
+		<view class="action">
+				<text class="cuIcon-title text-red"></text>
+				责任描述:
+			</view>
+			<view class="padding bg-white">1.负责货源清单模块、停/复供模块、询比价模块等主要模块的页面开发和代码实现</view>
+		<view class="padding bg-white">2.开发审批流程并通过接口对接甲方oa系统</view>
+		<view class="padding bg-white">3.配置数据权限/按钮权限</view>
+		<view class="padding bg-white">4.开发文档/测试报告的编写</view>
+		<view class="padding bg-white">5.与团队成员共同解决开发中遇到的问题</view>
 	</view>
 </view>
 <view class="cu-bar bg-white  margin-top">
@@ -41,8 +51,8 @@
 </view>
 <view class="cu-bar bg-white  margin-top">
 	<view class="qr">
-		<image class='qr-image' src="cloud://test-9p1vk.7465-test-9p1vk-1302837475/ToDo.jpg" mode="aspectFit" bind:tap="clickImg" data-url="cloud://test-9p1vk.7465-test-9p1vk-1302837475/ToDo.jpg" />
-		<view class="qr-desc">南京酒不醉有用户端和配送端APP/小程序，是一种单商家多门店的模式。主要功能：手机验证码登录、注册，三方登录，秒杀、团购、拼团、购物车、下单、配送、优惠券、VIP不同等级对应不同权限折扣、客服实时聊天、对接硬件扫码、喝什么模块。</view>
+		<image class='qr-image' src="../../images/nddy.jpg" mode="aspectFit" bind:tap="clickImg" data-url="cloud://test-9p1vk.7465-test-9p1vk-1302837475/ToDo.jpg" />
+		<view class="qr-desc">SRM系统是一个基于互联网服务/技术架构的新一代集成协同平台，致力于帮助改进企业采购管理，缩短业务管理周期时间，减低企业采购成本，提升采购质量和现金管理水平，助力企业打造绿色智能供应链。主要包括：供应商管理模块、物料需求模块、样品/批量试剂模块、现场考察模块、货源清单模块、停/复供模块、整改管理模块、采购申请模块、询比价模块、招投标模块、竞价管理模块、采购价格管理模块、调价需求模块、合同管理模块、物料主数据模块</view>
 	</view>
 </view>
 <block wx:for="{{dataList}}" wx:key="key">

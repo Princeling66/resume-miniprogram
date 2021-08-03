@@ -1,16 +1,20 @@
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
 	<view slot="backText">返回</view>
-	<view slot="content">方天电力APP</view>
+	<view slot="content">wms仓储管理系统
+</view>
 </cu-custom>
 <view class="padding text-center  intro-skill">
 	<view class="padding-xl radius shadow bg-white main-intro">
 		<view class="cu-bar bg-white  margin-top">
 			<view class="action">
 				<text class="cuIcon-title text-red"></text>
-				技术架构
+				项目描述
 			</view>
 		</view>
-		<view class="padding bg-white">uni-app+VUE+echart，工具HBuilder</view>
+		<view class="padding bg-white">业务员或商品客户通过app下单后，工作人员使用此软件进行订单审核，分拣等业务流程处理。
+</view>
+		<view class="padding bg-white">后端语言：Java</view>
+		<view class="padding bg-white">后端技术架构：springmvc+spring+mybatis+log4j+miniui+quartz+jqueryui+tomcat+maven+SVN</view>
 	</view>
 </view>
 <view class="padding text-center  intro-skill">
@@ -18,10 +22,10 @@
 		<view class="cu-bar bg-white  margin-top">
 			<view class="action">
 				<text class="cuIcon-title text-red"></text>
-				职责与技术难点
+				职责
 			</view>
 		</view>
-		<view class="padding bg-white">职责：根据美工提供的UE，对接国家电网那边后端开发人员开发APP的能效检测、大首页、能效评价、专家服务、微系统、需求管理等模块,优化所有列表加载展示.</view>
+		<view class="padding bg-white">职责：主要负责经销商、供应商、线路管理，分拣、其他出入库、拆散、部分报表以及其他软件对接的接口程序，数据库表设计、sql语句的编写及优化。修改程序bug</view>
 	</view>
 </view>
 <view class="cu-bar bg-white  margin-top">
@@ -33,7 +37,8 @@
 <view class="cu-bar bg-white  margin-top">
 	<view class="qr">
 		<image class='qr-image' src="cloud://hequn.6865-hequn-1302876179/logo/gjdwAd.png" mode="aspectFit" bind:tap="clickImg" data-url="cloud://hequn.6865-hequn-1302876179/logo/gjdwAd.png" />
-		<view class="qr-desc">国家电网营销APP，集图表统计和营销的APP，身份有供货商和用户</view>
+		<view class="qr-desc">主要功能模块：基础信息（经销商、经销商收费管理、供应商、品牌商品、商品类别、客户、车辆、线路、司机等）、采购订单、入库单、库存管理、盘点、销售订单、分拣管理、出库单、销售退货单、货物报损、整货拆散、拆装单、移仓模块、其他入出库、绩效管理、辅助功能、报表管理、菜单管理、账户管理、角色管理、数据字典、接口等。
+</view>
 	</view>
 </view>
 <block wx:for="{{dataList}}" wx:key="key">

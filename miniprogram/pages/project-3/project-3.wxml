@@ -1,19 +1,20 @@
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
 	<view slot="backText">返回</view>
-	<view slot="content">乡村休闲游</view>
+	<view slot="content">企企通SRM系统4.0</view>
 </cu-custom>
 <view class="padding text-center  intro-skill">
 	<view class="padding-xl radius shadow bg-white main-intro">
 		<view class="cu-bar bg-white  margin-top">
 			<view class="action">
 				<text class="cuIcon-title text-red"></text>
-				技术架构
+				项目描述
 			</view>
 		</view>
-		<view class="padding bg-white">App前端技术架构：Angular8+ionic3+TypeScript，工具VScode</view>
-		<view class="padding bg-white">小程序技术架构：基于TypeScipt整合的基础框架</view>
+		<view class="padding bg-white">基于上一版本srm系统进行更新迭代，.使用SpringBoot构建核心架构</view>
+		<view class="padding bg-white">前端技术架构：前端采用Vue/ElementUI框架</view>
+
 		<view class="padding bg-white">后端语言：Java</view>
-		<view class="padding bg-white">后端技术架构：Jfinal+Layui+Mysql+SVN</view>
+		<view class="padding bg-white">后端技术架构：SpringBoot+kafka+activiti+lts+mybatis+git</view>
 	</view>
 </view>
 <view class="padding text-center  intro-skill">
@@ -21,13 +22,28 @@
 		<view class="cu-bar bg-white  margin-top">
 			<view class="action">
 				<text class="cuIcon-title text-red"></text>
-				职责与技术难点
+				技术描述
 			</view>
 		</view>
-		<view class="padding bg-white">职责：主要负责APP端的旺铺模块、民宿模块、首页模块、分销模块、VR+直播模块、路线规划和全域导图模块、大转盘模块、菜谱模块的前后端。负责小程序的开发。</view>
-		<view class="padding bg-white">技术难点：</view>
-		<view class="padding bg-white">1.全域导图和旅游路线规划需要对接高德地图绘制轨迹路线和mark点标记。</view>
-		<view class="padding bg-white">2.APP分享海报、以及生成小程序码，扫码注册增加抽奖次数。</view>
+		<view class="padding bg-white">1.新增swagger接口文档</view>
+		<view class="padding bg-white">2.使用uflo流程设计器提供诸如并行、动态并行、串行、会签等各种常见及不常见的业务流程流转功能</view>
+		<view class="padding bg-white">3.使用lts管理定时任务,可视化的任务运行时调度和监控，解决分布式任务调度问题</view>
+		<view class="padding bg-white">4.使用kafka并行加载机制来统一线上和离线的消息处理，通过集群来提供实时的消息</view>
+		<view class="padding bg-white">5.使用rabbitmq在分布式系统中存储转发消息,确保消息的可靠传递</view>
+		<view class="padding bg-white">6.jenkins自动版本发布</view>
+		<view class="padding bg-white">7.采用Activiti工作流</view>
+		<view class="padding bg-white">8.OAuth2+JWT+Spring Security 认证中心，鉴权</view>
+		<view class="padding bg-white">9.新增Elasticsearch搭建日志系统</view>
+		<view class="padding bg-white">10.基于UML模型配置调用代码生成器生成结构统一的基础代码,通过JS增强、SQL增强进行客户化修改</view>
+		<view class="padding bg-white">11.前端采用Vue/ElementUI框架</view>
+		<view class="action">
+				<text class="cuIcon-title text-red"></text>
+				责任描述:
+			</view>
+			<view class="padding bg-white">1.负责供应商主数据/物料主数据/验厂/样品/资质/准入管理模块的定制化业务开发</view>
+		<view class="padding bg-white">2.使用uflo流程设计器设计审批流和审批业务开发。</view>
+		<view class="padding bg-white">3.使用lts开发定时任务</view>
+		<view class="padding bg-white">4.与团队成员共同协作解决项目BUG</view>
 	</view>
 </view>
 <view class="cu-bar bg-white  margin-top">
@@ -38,8 +54,8 @@
 </view>
 <view class="cu-bar bg-white  margin-top">
 	<view class="qr">
-		<image class='qr-image' src="cloud://hequn.6865-hequn-1302876179/logo/xxygAd.png" mode="aspectFit" bind:tap="clickImg" data-url="cloud://hequn.6865-hequn-1302876179/logo/xxygAd.png" />
-		<view class="qr-desc">乡村休闲游集休闲农业观光旅游与特色农产品电商于一体的新型农产品综合移动电商平台，以农业休闲观光旅游为主线，平台与入驻农庄。</view>
+		<image class='qr-image' src="../../images/qqt.jpg" mode="aspectFit" bind:tap="clickImg" data-url="cloud://hequn.6865-hequn-1302876179/logo/xxygAd.png" />
+		<view class="qr-desc">SRM系统是一个基于互联网服务/技术架构的新一代集成协同平台，致力于帮助改进企业采购管理，缩短业务管理周期时间，减低企业采购成本，提升采购质量和现金管理水平，助力企业打造绿色智能供应链。</view>
 	</view>
 </view>
 <block wx:for="{{dataList}}" wx:key="key">

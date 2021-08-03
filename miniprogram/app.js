@@ -3,7 +3,7 @@ App({
   onLaunch: function() {
     if (wx.cloud) {
       wx.cloud.init({
-        env:"hequn",
+        env:"resume-2gd4yatq8e6b4535",
         traceUser: true
       })
     }

@@ -15,13 +15,13 @@ Page({
    */
   showQrcode: function () {
     wx.previewImage({
-      current: 'cloud://hequn.6865-hequn-1302876179/image/wx.jpg',
-      urls: ['cloud://hequn.6865-hequn-1302876179/image/wx.jpg']
+      current: 'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/intro/添加二维码.png',
+      urls: ['cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/intro/添加二维码.png']
     })
   },
   phoneCall: function () {
     wx.makePhoneCall({
-      phoneNumber: '13260878599',
+      phoneNumber: '15321850185',
       fail(){
         console.log('拨打失败');
       }
@@ -29,11 +29,11 @@ Page({
   },
   saveContact: function () {
     wx.addPhoneContact({
-      firstName: '群',
-      lastName: '贺',
+      firstName: '沛',
+      lastName: '王',
       remark: 'JAVA后端开发工程师',
-      mobilePhoneNumber: '13260878599',
-      weChatNumber: 'YLQ07072015',
+      mobilePhoneNumber: '15321850185',
+      weChatNumber: 'ZMC369023741',
       success(){
       },
       fail(){

@@ -6,86 +6,51 @@ Page({
     CustomBar: app.globalData.CustomBar,
     dataList: [{
       imageUrlList: [
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/houtai/1598694210(1).jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/houtai/1598694230(1).jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/houtai/1598694267(1).jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/houtai/1598694285(1).jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/houtai/1598694309(1).jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/houtai/1598694334(1).jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/houtai/1598694359(1).jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/houtai/1598694375(1).jpg',
-        "cloud://hequn.6865-hequn-1302876179/jiubuzui/houtai/1598694390(1).jpg",
-        "cloud://hequn.6865-hequn-1302876179/jiubuzui/houtai/1598694432(1).jpg"
+        "cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/门户商城-首页1.png",
+        "cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/门户商城-热门行业.png",
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/门户商城-优质商家.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/门户商城-采购优选.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/门户商城-战略合作.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/门户商城-企销通.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/门户商城-询价商机.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/门户商城-供应链保理.png'
+
       ],
       descriptionList: [
-        '后台部分页面'
+        '一、门户商城部分页面'
       ]
     },{
       imageUrlList: [
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/home/0-1首页.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/home/0-2分类.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/home/0-4购物车.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/home/1-2搜索.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/home/1-1选择小区.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/home/1-5-2提交订单.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/home/2-1商品详情.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/home/2-5支付成功.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/home/今日秒杀.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/home/分享海报.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/home/整箱团购.PNG',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/home/热卖排行榜.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/home/自提点.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/home/限时拼团.png'
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/运营后台登录.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/供应商管理.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/商品管理.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/运营后台爱采购服务列表.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/运营后台百度联盟列表.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/运营后台合同列表.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/运营后台询价项目.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/运营后台黑名单.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/运营后台白名单.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/属性库.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/菜单管理.png',
+        "cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/行业管理.png",
+        "cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/错误日志.png"
       ],
       descriptionList: [
-        '一、用户端首页模块UI：Banner、一级分类、秒杀、团购、拼团入口、首页商品列表展示、搜索',
+        '二、运营后台部分页面',
       ]
     },{
       imageUrlList: [
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/heshenme/0-3-1喝什么.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/heshenme/0-3-2喝什么_详情.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/heshenme/0-3-3喝什么_用户.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/heshenme/0-3-4喝什么_帖子.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/heshenme/0-3-5发布帖子.jpg'
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/店铺后台-首页.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/店铺后台-商品.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/店铺后台-店铺.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/店铺后台-采购.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/店铺后台-商机.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/店铺后台-素材.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/店铺后台-账户.png',
+        'cloud://resume-2gd4yatq8e6b4535.7265-resume-2gd4yatq8e6b4535-1305215252/qqtcgw/店铺后台-企业认证.png'
       ],
       descriptionList: [
-        '二、喝什么模块UI'
-      ]
-    },{
-      imageUrlList: [
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/user/0-1我的订单_骑手配送.png',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/user/2-1我的订单_订单详情_到店自提待付款.PNG',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/user/优惠券.PNG',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/user/优惠券使用.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/user/会员权益.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/user/会员权益_我的权益.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/user/会员码.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/user/地址管理.PNG',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/user/客服.PNG',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/user/开通会员.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/user/我的消息.PNG',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/user/我的订单_订单详情_骑手配送的待收货物流信息.png',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/user/立即评价.PNG',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/user/订单支付.PNG',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/user/领券中心.PNG',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/user/添加发票.PNG'
-      ],
-      descriptionList: [
-        '三、个人中心页面模块部分UI'
-      ]
-    },{
-      imageUrlList: [
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/del/0-1登录_验证码登录.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/del/0-2登录__验证码登录_验证码.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/del/0-3登录_密码登录.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/del/10提现.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/del/1接单.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/del/4接单-弹框.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/del/7线路规划.jpg',
-        'cloud://hequn.6865-hequn-1302876179/jiubuzui/del/3待送达.jpg'
-      ],
-      descriptionList: [
-        '四、配送单部分UI'
+        '三、店铺后台部分页面'
       ]
     }]
   },

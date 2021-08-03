@@ -2,7 +2,7 @@
   <view class="content content-intro">
     <view class="content-inner" animation="{{animationData}}">
       <view class="wrap fade in">
-        <text class="content-title">贺群</text>
+        <text class="content-title">王沛</text>
         <view class="content-subtitle">
           <text>J</text>
           <text>A</text>
@@ -34,8 +34,8 @@
               <image alt="avatar" class="userhead" src='../../images/3.png' />
             </view>
             <view class="signature">
-              <text class="cardname" bindtap="toUserList">贺群</text>
-              <text class="print">Code & Input & Output</text>
+              <text class="cardname" bindtap="toUserList">王沛</text>
+              <text class="print">以点成线，以线成面</text>
             </view>
           </view>
           <view class='nav-list'>

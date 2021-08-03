@@ -1,19 +1,20 @@
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
 	<view slot="backText">返回</view>
-	<view slot="content">酒不醉APP</view>
+	<view slot="content">企企通采购网-微服务</view>
 </cu-custom>
 <view class="padding text-center  intro-skill">
 	<view class="padding-xl radius shadow bg-white main-intro">
 		<view class="cu-bar bg-white  margin-top">
+
 			<view class="action">
 				<text class="cuIcon-title text-red"></text>
-				技术架构
+				项目描述：
 			</view>
 		</view>
-		<view class="padding bg-white">App前端技术架构：Angular8+ionic5+TypeScript，工具VScode</view>
-		<view class="padding bg-white">小程序技术架构：基于TypeScipt整合的基础框架</view>
-		<view class="padding bg-white">后端语言：Java</view>
-		<view class="padding bg-white">后端技术架构：Jfinal+Layui+Maven+Mysql+SVN</view>
+		<view class="padding bg-white">企企通采购网服务于中国互联网电商的公司,致力于为国内中小供应商企业提供精准营销效果广告平台,企企通采购网线上可交易产品品类已全面覆盖“MRO工业制造、印刷包装、五金电器、商业贸易、办公批发”等各行各业。并与找商网合作代理百度爱采购产品，为供应商提供精准商机。</view>
+		
+		<view class="padding bg-white">前端技术架构：采用开源两个框架:Sword (基于 React、Ant Design)、Saber (基于 Vue、 Element-UI)</view>
+		<view class="padding bg-white">后端技术架构：Spring Boot2+Spring Cloud全家桶+Redis+Mybatis+Nacos+Sentinel+Traefik+Oauth2+Flowable </view>
 	</view>
 </view>
 <view class="padding text-center  intro-skill">
@@ -21,17 +22,33 @@
 		<view class="cu-bar bg-white  margin-top">
 			<view class="action">
 				<text class="cuIcon-title text-red"></text>
-				职责与技术难点
+				技术描述：
 			</view>
 		</view>
-		<view class="padding bg-white">  职责：独立负责用户端和骑手端APP端和小程序端的后台、接口、以及APP端开发，带两位新同事学习小程序开发，小程序端主要负责首页、分类页面商品展示、购物车页面、下单、支付以及授权登录和授权获取手机号码、node-data页面、上传图片等组件的封装,负责申请、对接友盟、高德、支付宝、微信等项目所需参数，搭建服务器环境、申请SSL证书、配送https。</view>
-		<view class="padding bg-white">技术难点：</view>
-		<view class="padding bg-white">  1.对接客如云。</view>
-		<view class="padding bg-white">  2.因为是多门店单商家模式，配送以及邮寄按客户需求缺货自动将订单按距离倒序就近派单，如遇缺货自动顺位到下一个门店。解决方案：用户在下单时，使用递归方法将订单内商品跟门店比对，如果所有门店全部缺货则返回缺货信息。</view>
-		<view class="padding bg-white">  3.对接客服聊天，前端使用的是公司内部封装的组件，后端使用JIM实时聊天。</view>
-		<view class="padding bg-white">4.创建订单、更改订单状态、支付等操作需要用到事务、确认发货后定时更改状态为完成以及配送时间，超时计算需要用到定时器。</view>
-		<view class="padding bg-white">5.不同会员等级对应不同折扣使用的是工厂+策略设计模式</view>
-		<view class="padding bg-white">6.APP端和小程序端加入购物车动画效果</view>
+		<view class="padding bg-white">
+			<view class="padding bg-white">1.基于SpringBoot2、SpringCloud Hoxton、Mybatis构建核心架构</view>
+			<view class="padding bg-white">2.采用Oauth2协议进行统一的Token下发与鉴权，保证系统安全性</view>
+				<view class="padding bg-white">3.使用Gateway进行网关的统一转发，生产环境采用Traefik代理</view>
+					<view class="padding bg-white">4.微服务统一注册至Nacos，Nacos担任注册中心与配置中心的角色</view>
+						<view class="padding bg-white">5.采用Feign进行远程调用，Ribbon进行负载，Hystrix进行熔断</view>
+							<view class="padding bg-white">6.采用Sentinel进行限流，保障系统整体的性能</view>
+								<view class="padding bg-white">7.集成Seata，为分布式事务保驾护航</view>
+									<view class="padding bg-white">8.具有日志收集与监控服务为一体的能力</view>
+										<view class="padding bg-white">9.支持FatJar、Docker、K8s、阿里云等多种部署方式</view></view>
+										<view class="action">
+
+				<text class="cuIcon-title text-red"></text>
+				责任描述：
+			</view>
+		<view class="padding bg-white">  1.用户模块/企业认证模块/店铺模块/商品模块的CRUD</view>
+		<view class="padding bg-white">  2.与合作商家对接接口导入用户/店铺/商品基础数据</view>
+		<view class="padding bg-white">  3.开发接口与找商网对接业务数据传到百度爱采购增加曝光量</view>
+		<view class="padding bg-white">4.根据Oauth2协议开发手机验证码登陆功能</view>
+		<view class="padding bg-white">5.定时任务开发</view>
+		<view class="padding bg-white">6.对接天眼查接口进行企业信息校验与补充</view>
+		<view class="padding bg-white">7.根据需求进行迭代开发</view>
+		<view class="padding bg-white">8.测试环境与线上环境的代码发布</view>
+		
 	</view>
 </view>
 <view class="cu-bar bg-white  margin-top">
@@ -42,8 +59,8 @@
 </view>
 <view class="cu-bar bg-white  margin-top">
 	<view class="qr">
-		<image class='qr-image' src="../../images/jiubuzuiAd.png" mode="aspectFit" bind:tap="clickImg" data-url="cloud://hequn.6865-hequn-1302876179/logo/jiubuzuiAd.png" />
-		<view class="qr-desc">南京酒不醉有用户端和配送端APP/小程序，是一种单商家多门店的模式。主要功能：手机验证码登录、注册，三方登录，秒杀、团购、拼团、购物车、下单、配送、优惠券、售后模块、VIP不同等级对应不同权限折扣、客服实时聊天、对接硬件扫码、喝什么模块。</view>
+		<image class='qr-image' src="../../images/qqtcaigou.png" mode="aspectFit" bind:tap="clickImg" data-url="cloud://hequn.6865-hequn-1302876179/logo/jiubuzuiAd.png" />
+		<view class="qr-desc">企企通采购网有运营后台管理和门户商城与店铺管理后台，是一种单企业多店铺的模式。运营后台管理主要功能：供应商管理、寻源管理、商品管理、店铺管理、订单管理、合同管理、行业管理、属性库、品类管理、角色管理、权限管理、流程管理、资源管理、系统监控等模块。门户商城主要功能：手机验证码登录、注册、选品上架、寻源采购。店铺管理后台主要功能：创建店铺、企业信息认证、商品上下架、百度认证、百度联盟等模块。</view>
 	</view>
 </view>
 <block wx:for="{{dataList}}" wx:key="key">

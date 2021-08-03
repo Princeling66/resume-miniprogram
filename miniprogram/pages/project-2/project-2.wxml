@@ -1,32 +1,41 @@
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
 	<view slot="backText">返回</view>
-	<view slot="content">现代化社区治理系统</view>
+	<view slot="content">华光锅炉微信公众号开发</view>
 </cu-custom>
 <view class="padding text-center  intro-skill">
 	<view class="padding-xl radius shadow bg-white main-intro">
 		​ <view class="cu-bar bg-white  margin-top">
-			​ <view class="action">
-				​ <text class="cuIcon-title text-red"></text>
-				​ 技术架构
-				​ </view>
+			<view class="action">
+				<text class="cuIcon-title text-red"></text>
+				项目描述：
+			</view>
 			​ </view>
-		​ <view class="padding bg-white">公众号前端技术架构：Angular8+ionic5+TypeScript，工具VScode</view>
+			<view class="padding bg-white">用户用微信扫描二维码关注公众号及自动绑定账号后，可以很方便的扫码登录SRM系统，接收订单、收发货、预警提醒，并且供应商还可以在微信上获得单据提交和审批动态推送并查看单据详细信息和进行审批操作。</view>
+		​ <view class="padding bg-white">公众号前端技术架构：使用腾讯artTemplateJS模板引擎，工具idea</view>
 		​ <view class="padding bg-white">后端语言：Java</view>
-		​ <view class="padding bg-white">后端技术架构：Jfinal+Layui+Maven+Mysql+SVN</view>
+		​ <view class="padding bg-white">后端技术架构：spring+springmvc+Apache CXF+redis+Mybatis+Naginx+svn</view>
 	</view>
 </view>
 <view class="padding text-center  intro-skill">
 	<view class="padding-xl radius shadow bg-white main-intro">
-		​ <view class="cu-bar bg-white  margin-top">
-			​ <view class="action">
-				​ <text class="cuIcon-title text-red"></text>
-				​ 职责与技术难点
-				​ </view>
-			​ </view>
-		​ <view class="padding bg-white">职责：独立负责公众号的后台、接口开发，根据美工提供的UE完成公众号前端所有模块、以及PC端登录、预约项目页面开发。</view>
-		​ <view class="padding bg-white">技术难点：</view>
-		​ <view class="padding bg-white">1.对接扫码枪，用户可以根据生成的二维码扫码登录，进行社区项目。</view>
-		​ <view class="padding bg-white">2.对接社区内硬件设备，用户可以在公众号内预约，也可以在社区内通过扫码登录后进行操作，开启机器，机器根据设定时间自动关闭。</view>
+
+			<view class="action">
+				<text class="cuIcon-title text-red"></text>
+				技术描述：
+			</view>
+			
+		​ <view class="padding bg-white">1.使用artTemplateJS模版引擎进行前端页面的开发</view>
+		<view class="padding bg-white">2.接口调用使用jquery库Ajax异步调用</view>
+		<view class="padding bg-white">3.使用nginx反向代理</view>
+	
+		<view class="action">
+<text class="cuIcon-title text-red"></text>
+		​责任描述：
+	</view>
+		​ <view class="padding bg-white">1.对接SRM个人信息模块，用户可以根据生成的二维码扫码登录，微信接受通知和预警提醒</view>
+		​ <view class="padding bg-white">2.参与供应商、比价、招投标审批流程等主要模块的页面开发和代码实现</view>
+		<view class="padding bg-white">3.微信公众号服务后台相关配置和微信模版消息数据库相关配置</view>
+		<view class="padding bg-white">4.编写开发文档,与团队成员共同解决开发中遇到的问题</view>
 	</view>
 </view>
 <view class="cu-bar bg-white  margin-top">
@@ -37,8 +46,8 @@
 </view>
 <view class="cu-bar bg-white  margin-top">
 	<view class="qr">
-		<image class='qr-image' src="../../images/sqcode.png" mode="aspectFit" bind:tap="clickImg" data-url="cloud://hequn.6865-hequn-1302876179/logo/sqcode.png" />
-		<view class="qr-desc">现代化社区治理系统主要是网格化服务社区，发布一些社区信息、连接社区健身设备、发布志愿者活动，用户可以通过公众号报名，管理人员可以通过扫描yoghurt二维码获取报名信息、用户和商家也可以通过扫描二维码交易蜜值、用户可以通过公众号提交家庭信息方便社区进行统计、以及疫情期间通过扫码进出门便于防护疫情。后台功能多用于统计社区内家庭信息。</view>
+		<image class='qr-image' src="../../images/hggl.jpg" mode="aspectFit" bind:tap="clickImg" data-url="cloud://hequn.6865-hequn-1302876179/logo/sqcode.png" />
+		<view class="qr-desc">SRM系统是一个基于互联网服务/技术架构的新一代集成协同平台，致力于帮助改进企业采购管理，缩短业务管理周期时间，减低企业采购成本，提升采购质量和现金管理水平，助力企业打造绿色智能供应链。</view>
 	</view>
 </view>
 <block wx:for="{{dataList}}" wx:key="key">

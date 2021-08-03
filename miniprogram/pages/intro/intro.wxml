@@ -5,19 +5,19 @@
 <view class="padding">
   <view class="padding-xl radius shadow-warp bg-white margin-top">
     <view class="flex justify-center">
-      <image class="cu-avatar xl round" src="../../images/2.png"></image>
+      <image class="cu-avatar xl round" src="../../images/zjz1.jpeg"></image>
     </view>
     <view class="flex justify-center margin-top-sm">
-      <text class="text-bold">贺群</text>
+      <text class="text-bold">王沛</text>
     </view>
     <view class="flex justify-center margin-top-sm">
       <text>期望职位：</text>
       <text class="text-shadow text-orange">JAVA后端开发工程师</text>
     </view>
     <view class="flex justify-center margin-top-sm">
-      <text>男</text>
+      <text>女</text>
       <text class="margin-left-sm">25岁</text>
-      <text class="margin-left-sm">2年工作经验</text>
+      <text class="margin-left-sm">3年工作经验</text>
     </view>
     <view class="flex justify-around margin-top-sm">
       <view bindtap="showQrcode">
@@ -39,31 +39,27 @@
     <view class="edu margin-top text-center text-bold"></view>
     <view class="margin-top">
       <text class="cuIcon-time"></text>
-      <text class="margin-left-sm">2019年毕业</text>
+      <text class="margin-left-sm">2017年毕业</text>
     </view>
     <view class="margin-top-sm">
       <text class="cuIcon-home"></text>
-      <text class="margin-left-sm">南京大学金陵学院</text>
-    </view>
-    <view class="margin-top-sm">
-      <text class="cuIcon-attentionfavor"></text>
-      <text class="margin-left-sm">电子信息科学与技术/本科</text>
+      <text class="margin-left-sm">苏州工业园区职业技术学院</text>
     </view>
   </view>
-  <view class="padding-xl radius shadow-warp bg-white margin-top">
+  <!-- <view class="padding-xl radius shadow-warp bg-white margin-top">
     <view class="cuIcon-medalfill text-xl text-blue text-center"></view>
     <view class="medalfill margin-top text-center text-bold"></view>
     <view class="margin-top evaluate-cont">
-      <text>江苏省高等数学竞赛二等奖</text>
+      <text>和盈科技有限公司</text>
     </view>
-  </view>
+  </view> -->
   <view class="padding-xl radius shadow-warp bg-white margin-top last-panel">
     <view class="cuIcon-appreciatefill text-xl text-blue text-center"></view>
     <view class="evaluate margin-top text-center text-bold"></view>
     <view class="margin-top evaluate-cont">
       <text>工作认真负责，能很好完成领导交代的任务。 </text>
-      <text>喜欢研究新技术，平时有时间就看视频，补不足。</text>
-      <text>喜欢逛码云、gitHub找一些有意思的开源项目或者功能然后加到自己个人项目中，已有个人博客、个人简历两个开源项目。</text>
+      <text>喜欢研究新技术，平时有时间就看视频，看书，扩充自己的知识面，弥补自己的不足之处。</text>
+      <text>喜欢逛码云、gitHub找一些有意思的开源项目或者功能来增加工作效率，已根据开源项目开发出自己的个人博客和个人简历小程序。</text>
     </view>
   </view>
 </view>

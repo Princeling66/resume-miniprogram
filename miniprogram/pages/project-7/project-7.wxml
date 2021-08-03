@@ -1,19 +1,17 @@
 <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
 	<view slot="backText">返回</view>
-	<view slot="content">纪元佳品</view>
+	<view slot="content">个人博客</view>
 </cu-custom>
 <view class="padding text-center  intro-skill">
 	<view class="padding-xl radius shadow bg-white main-intro">
 		<view class="cu-bar bg-white  margin-top">
 			<view class="action">
 				<text class="cuIcon-title text-red"></text>
-				技术架构
+				项目描述：
 			</view>
 		</view>
-		<view class="padding bg-white">App前端技术架构：Angular8+ionic5+TypeScript，工具VScode</view>
-		<view class="padding bg-white">PC端技术架构：layui+jquery+js</view>
-		<view class="padding bg-white">后端语言：Java</view>
-		<view class="padding bg-white">后端技术架构：Jfinal+Layui+Maven+Mysql+SVN</view>
+		<view class="padding bg-white">HEXO是一个静态网页博客框架,HEXO基于Node.js, 采用markdown解析文章。使用了Butterfly主题，部署在gitHub服务器，使用持续集成工具Travis CI进行构建和部署</view>
+		<view class="padding bg-white">技术架构：Hexo+Butterfly+Github+Travis CI</view>
 	</view>
 </view>
 <view class="padding text-center  intro-skill">
@@ -21,11 +19,12 @@
 		<view class="cu-bar bg-white  margin-top">
 			<view class="action">
 				<text class="cuIcon-title text-red"></text>
-				职责与技术难点
+				技术与职责：
 			</view>
 		</view>
-		<view class="padding bg-white">职责：独立负责纪元佳品的接口、后台、。app端和pc端的开发。</view>
-		<view class="padding bg-white">技术难点：下单可以预付定金、需要对接除支付宝和微信以外的客户公司内部的美食卡、资金卡。订单需要备份一份传到客户以前的sqlServer数据库。</view>
+		<view class="padding bg-white">1.将 Hexo 部署到 GitHub Pages</view>
+		<view class="padding bg-white">2.使用Butterfly主题美化个人博客</view>
+		<view class="padding bg-white">3.使用持续集成工具Travis CI进行构建和自动化部署</view>
 	</view>
 </view>
 <view class="cu-bar bg-white  margin-top">
@@ -36,8 +35,8 @@
 </view>
 <view class="cu-bar bg-white  margin-top">
 	<view class="qr">
-		<image class='qr-image' src="cloud://hequn.6865-hequn-1302876179/logo/jyjpAd.png" mode="aspectFit" bind:tap="clickImg" data-url="cloud://hequn.6865-hequn-1302876179/logo/jyjpAd.png" />
-		<view class="qr-desc">纪元佳品APP和PC端是南京纪元佳品大酒店定制的一款单商家多供应商的商家平台，具有展示、下单等常见功能。线上地址：www.jiyuanjiapin.com</view>
+		<image class='qr-image' src="../../images/blog.jpeg" mode="aspectFit" bind:tap="clickImg" data-url="../../images/blog.jpeg" />
+		<view class="qr-desc">博客地址：https://princeling66.github.io/MyBlog/</view>
 	</view>
 </view>
 <block wx:for="{{dataList}}" wx:key="key">
