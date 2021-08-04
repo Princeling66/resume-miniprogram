@@ -1,7 +1,9 @@
-# 微信小程序_个人简历
-
+# 个人简历(微信小程序版)
 #### 介绍
+根据https://gitee.com/he_qun/resume-miniprogram?_from=gitee_search 改的
 基于微信云开发写的一个个人简历微信小程序，组件库使用的是ColorUI。
+原项目来自码云@殷桃小狗子
+https://gitee.com/he_qun
 
 
 #### 安装教程
